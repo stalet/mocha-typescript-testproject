@@ -8,7 +8,8 @@
     "scripts": {
         "build": "tsc",
         "pretest": "pnpm run build",
-        "test": "mocha"
+        "test": "mocha",
+        "test:with-debug": "DEBUG=mocha* mocha"
     },
     "dependencies": {
         "extensionless": "1.9.6"

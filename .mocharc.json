@@ -1,7 +1,6 @@
 {
   "diff": true,
   "require": "test/mocha-setup.js",
-  "import": ["extensionless/register"],
   "extension": ["ts", "tsx"],
   "spec": ["test/**/*.test.ts"]
 }
