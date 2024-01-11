@@ -1,0 +1,26 @@
+{
+    "name": "mocha-test",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Test project for mocha that shows the issue with errorhandling of typescript errors",
+    "main": "dist/main.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "pretest": "pnpm run build",
+        "test": "mocha"
+    },
+    "dependencies": {
+        "extensionless": "1.9.6"
+    },
+    "devDependencies": {
+        "@tsconfig/node20": "20.1.2",
+        "@types/chai": "4.3.11",
+        "@types/node": "20.11.0",
+        "chai": "5.0.0",
+        "mocha": "10.2.0",
+        "ts-node": "10.9.2",
+        "tslib": "2.6.2",
+        "typescript": "5.3.3"
+    }
+}
