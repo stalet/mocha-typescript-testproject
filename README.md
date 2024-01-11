@@ -3,7 +3,7 @@
 Reproducing bug described in mochajs/mocha#5074
 
 ## Steps to reproduce
-run `pnpm it`
+run `pnpm install` and then `pnpm test`
 
 ## Expected behavior
 Tests should fail with error "TypeError: Cannot convert object to primitive value"
