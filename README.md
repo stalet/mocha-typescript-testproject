@@ -1,6 +1,6 @@
 # Test project to reproduce issue in mocha
 
-Reproducing bug described in mochajs/mocha#100
+Reproducing bug described in mochajs/mocha#5074
 
 ## Steps to reproduce
 run `pnpm it`
