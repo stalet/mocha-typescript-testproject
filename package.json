@@ -3,7 +3,6 @@
     "private": true,
     "version": "0.0.1",
     "description": "Test project for mocha that shows the issue with errorhandling of typescript errors",
-    "main": "dist/main.js",
     "type": "module",
     "scripts": {
         "build": "tsc",
