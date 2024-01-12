@@ -2,6 +2,11 @@
 
 Reproducing bug described in mochajs/mocha#5074
 
+## Environment
+This is expected to fail, as it is a test project to reproduce an issue. See the logs of the github action below.
+
+[![Build and test](https://github.com/stalet/mocha-typescript-testproject/actions/workflows/build.yml/badge.svg)](https://github.com/stalet/mocha-typescript-testproject/actions/workflows/build.yml)
+
 ## Steps to reproduce
 run `pnpm install` and then `pnpm test`
 
